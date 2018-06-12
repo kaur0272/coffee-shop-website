@@ -1,0 +1,1343 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper{
+  width: 95%;
+  margin: 0em auto;
+  height: 100%;
+}
+
+body {
+  margin:0;
+  padding:0;
+  height: 100%;
+  background-color: #c7b299;
+}
+
+header{
+  background-color: #c7b299;
+  width: 100%;
+  padding: 15px 0;
+  font-family: 'Cooper Black';
+}
+
+h1{
+  color:#521618;
+  text-align: center;
+  font-size: 50px;
+ 
+}
+h3{
+  color:#0f532f;
+  text-align: center;
+  font-size: 24px;
+}
+
+.nav {
+   
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    background-color: #330000;
+    color:#d9dcb3;
+    font-size: 15px;
+    margin: 0px;
+    padding: 10px 0;
+    width: 100%;
+    font-family: "cooper black";
+
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: left;
+    text-decoration: none;
+    color: #d9dcb3;
+    margin: 0 10px;
+    line-height: 70px;
+    padding: 5px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+    width: 60px;
+    height: 40px;
+    float: left;
+}
+#toggle {
+    display: none;
+}
+
+
+.parallax{
+  background-image: url(../images/crop.png);
+  height: 600px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+}
+
+.heading1 h1{
+    font-size: 2em;
+    color: #ffffcc;
+    background-color: #330000;
+    padding: 15px 0;
+    margin-top:0;
+    
+  }
+
+.para1 {
+  font-size:28px;
+  color:#521618;
+  width:100%;
+}
+
+.images p{
+font-family: "Cooper Black";
+font-size: 24px;
+color:black;
+text-align: center;
+}
+
+.images2 p{
+font-family: "Cooper Black";
+font-size: 24px;
+color:black;
+text-align: center;
+
+}
+
+ img{
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+  margin-top:46px;
+}
+
+footer{
+    width:100%;
+    text-align: center;
+    height:350px;
+    background-color:  #330000;
+    color: #ffffcc;
+
+  }
+.column h2{
+  margin: 40px 0;
+  font-size:24px;
+}
+
+.column p{
+  margin: 0px 0px;
+  font-size: 16px;
+
+}
+.column {
+    float: left;
+    width: 33.33%;
+
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.credit{
+ 
+     float:left;
+     width:50%;
+     font-size: 18px;
+     margin-top: 80px;
+     margin-left:0px;
+  }
+
+.social{
+  float:right;
+  width: 50%;
+  margin-top: 50px;
+
+}
+
+.fa{
+  padding:10px;
+  font-size: 30px;
+  width:50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #cc3399;
+  color: white;
+  }
+
+/*code for aboutus page start here*/
+
+.about-img{
+   background-image: url(../images/organic.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+
+}
+
+.container2{
+   position: relative;
+    text-align: left;
+    color:#521618;
+}
+
+.centered {
+    position: absolute;
+    top: 54%;
+    left: 43%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+ 
+}
+
+
+footer{
+  margin-top: 100px;
+}
+
+/*about page code ends here*/
+
+/*service page code starts here*/
+.service-img1{
+  background-image: url(../images/services.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+}
+
+.service-img2{
+  margin-top:10px;
+  background-image: url(../images/serv2.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+}
+
+footer{
+  margin-top:100px;
+}
+
+/*services code end here*/
+
+/*products page code start here*/
+
+.product-img1{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/cup.jpg);
+ background-repeat: no-repeat;
+/* margin-left:500px;*/
+
+}
+
+.product-img2{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/bean.jpg);
+ background-repeat: no-repeat;
+/* margin-left: 80px;*/
+ }
+
+.product-img3{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/giftcards.jpg);
+ background-repeat: no-repeat;
+ /* margin-left:400px;*/
+
+}
+
+footer{
+  margin-top:100px;
+  width: 100%;
+}
+
+
+/*product page code end here*/
+
+/*contact code start here*/
+
+.heading2{
+
+    font-size: 0.3em;
+    color: #330000;
+    padding: 15px 0;
+    margin-top:0px;
+    
+  }
+
+  .contact{
+    text-align: center;
+;
+}
+
+.mail{
+  text-align: center;
+}
+
+.fa{
+  padding:20px;
+  font-size: 30px;
+  width:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  }
+
+/*media queries start here*/
+
+@media screen and (max-width: 30em){
+/*media query for homepage*/
+.wrapper{
+    width:30em;
+    background-color: aqua;
+  }
+
+h1{
+  color:#521618;
+  text-align: center;
+  font-size: 3em;
+ 
+}
+h3{
+  color:#0f532f;
+  text-align: center;
+  font-size: 1em;
+}
+
+label {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        color:#330000;
+    }
+    .menu a {
+        display: block;
+        margin: 0;
+        color:#330000;
+        padding:0px;
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+
+  .parallax{
+  background-image: url(../images/crop.png);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  margin-top: 350px;
+}
+
+.heading1 h1{
+    font-size:1em;
+    color: #ffffcc;
+    background-color: #330000;
+    padding: 15px 0;
+    margin-top:0;
+    font-family: "cooper black"
+    
+  }
+
+.para1{
+  font-size:18px;
+  color:#521618;
+  width:100%;
+  
+
+}
+
+.images p{
+font-family: "Cooper Black";
+font-size: 20px;
+color:black;
+text-align: center;
+}
+
+.images2 p{
+font-family: "Cooper Black";
+font-size: 24px;
+color:black;
+text-align: center;
+}
+
+.images .images2{
+  width:100%;
+  height:400px;
+}
+
+
+
+footer{
+    width:100%;
+    text-align: center;
+    height:390px;
+    background-color:  #330000;
+    color: #ffffcc;
+}
+
+.column h2{
+
+  margin: 40px 0;
+  font-size:24px;
+}
+
+.column p{
+  margin: 0px 0px;
+  font-size: 16px;
+
+}
+.column {
+    float: left;
+    width: 33.33%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.credit{
+     float:left;
+     width:50%;
+     font-size: 12px;
+     margin-top: 120px;
+     margin-left:0px;
+}
+.social{
+  float:right;
+  width: 50%;
+  margin-top: 90px;
+
+}
+
+.fa{
+  padding:5px;
+  font-size: 20px;
+  width:40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+
+}
+
+/*media query for homepage ends here*/
+
+/*media QUERY FOR about page starts here*/
+
+.about-img{
+   background-image: url(../images/organic.jpg);
+  height: 350px;
+  margin-top: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+
+}
+
+.container2{
+   position: relative;
+    text-align: left;
+    color:#521618;
+}
+
+.centered {
+    position: absolute;
+    top: 32%;
+    left:41%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+ 
+}
+
+
+footer{
+  margin-top: 100px;
+  width: 100%;
+}
+/*about page media query ends here*/
+
+/*services page ,media query starts here*/
+
+.service-img1{
+  background-image: url(../images/services.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  margin-top:350px;
+}
+
+.service-img2{
+  margin-top:10px;
+  background-image: url(../images/serv2.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+}
+
+
+/*media query for product page start here*/
+
+
+.product-img1{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/cup.jpg);
+ background-repeat: no-repeat;
+
+}
+
+.product-img2{
+ width: 100%;
+ height:300px;
+margin-top:350px;
+ background-image: url(../images/bean.jpg);
+ background-repeat: no-repeat;
+
+ }
+
+.product-img3{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/giftcards.jpg);
+ background-repeat: no-repeat;
+
+
+}
+
+.heading2{
+    font-size: 0.8em;
+    margin-top:300px;
+   
+   
+    
+  }
+
+  .mail{
+  
+    font-size: 22px;
+  }
+}
+
+ @media only screen and (min-width: 48em){
+  .wrapper{
+    width:48em;
+  }
+
+h1{
+  color:#521618;
+  text-align: center;
+  font-size: 3.3em;
+ 
+}
+h3{
+  color:#0f532f;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.nav {
+   
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    background-color: #330000;
+    color:#d9dcb3;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px 0;
+    width: 100%;
+    font-family: "cooper black";
+
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: left;
+    text-decoration: none;
+    color: #d9dcb3;
+    margin: 0 10px;
+    line-height: 70px;
+    padding: 26px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+    width: 60px;
+    height: 40px;
+    float: left;
+}
+
+  .parallax{
+  background-image: url(../images/crop.png);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+ 
+}
+
+.heading1 h1{
+    font-size:2.3em;
+    color: #ffffcc;
+    background-color: #330000;
+    padding: 15px 0;
+    margin-top:0;
+    font-family: "cooper black"
+    
+  }
+
+.para1{
+  font-size:20px;
+  color:#521618;
+  width: 100%;
+  
+
+}
+
+.images p{
+font-family: "Cooper Black";
+font-size: 20px;
+color:black;
+text-align: center;
+}
+
+.images2 p{
+font-family: "Cooper Black";
+font-size: 24px;
+color:black;
+text-align: center;
+}
+
+.images .images2{
+  width:100%;
+  height:400px;
+}
+
+
+
+footer{
+    width:100%;
+    text-align: center;
+    height:390px;
+    background-color:  #330000;
+    color: #ffffcc;
+}
+
+.column h2{
+
+  margin: 40px 0;
+  font-size:24px;
+}
+
+.column p{
+  margin: 0px 0px;
+  font-size: 16px;
+
+}
+.column {
+    float: left;
+    width: 33.33%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.credit{
+     float:left;
+     width:50%;
+     font-size: 12px;
+     margin-top: 120px;
+     margin-left:0px;
+}
+.social{
+  float:right;
+  width: 50%;
+  margin-top: 90px;
+
+}
+
+.fa{
+  padding:5px;
+  font-size: 20px;
+  width:40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+
+}
+
+/*media query for homepage ends here*/
+
+/*media QUERY FOR about page starts here*/
+
+.about-img{
+   background-image: url(../images/organic.jpg);
+  height: 350px;
+  margin-top: 0px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+
+}
+
+.container2{
+   position: relative;
+    text-align: left;
+    color:#521618;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left:40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+ 
+}
+
+
+footer{
+  margin-top: 100px;
+}
+/*about page media query ends here*/
+
+/*services page ,media query starts here*/
+
+.service-img1{
+  background-image: url(../images/services.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  margin-top:0px;
+}
+
+.service-img2{
+  margin-top:10px;
+  background-image: url(../images/serv2.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+}
+
+
+/*media query for product page start here*/
+
+
+.product-img1{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/cup.jpg);
+ background-repeat: no-repeat;
+
+}
+
+.product-img2{
+ width: 100%;
+ height:300px;
+margin-top:0px;
+ background-image: url(../images/bean.jpg);
+ background-repeat: no-repeat;
+
+ }
+
+.product-img3{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/giftcards.jpg);
+ background-repeat: no-repeat;
+
+
+}
+
+.heading2{
+    font-size: 0.8em;
+    padding: 15px 0;
+    margin-top:0px; 
+  }
+
+  .contact-content{
+   font-size: 22px;
+  }
+}
+
+
+ @media only screen and (min-width: 60em){
+  .wrapper{
+    width: 60em;
+  }
+
+  h1{
+  color:#521618;
+  text-align: center;
+  font-size: 3.3em;
+ 
+}
+h3{
+  color:#0f532f;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.nav {
+   
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    background-color: #330000;
+    color:#d9dcb3;
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 0;
+    width: 100%;
+    font-family: "cooper black";
+
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: left;
+    text-decoration: none;
+    color: #d9dcb3;
+    margin: 0 10px;
+    line-height: 70px;
+    padding: 26px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+    width: 60px;
+    height: 40px;
+    float: left;
+}
+
+  .parallax{
+  background-image: url(../images/crop.png);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+ 
+}
+
+.heading1 h1{
+    font-size:2.3em;
+    color: #ffffcc;
+    background-color: #330000;
+    padding: 15px 0;
+    margin-top:0;
+    font-family: "cooper black"
+    
+  }
+
+.para1{
+  font-size:22px;
+  color:#521618;
+  width: 100%;
+  
+
+}
+
+.images p{
+font-family: "Cooper Black";
+font-size: 20px;
+color:black;
+text-align: center;
+}
+
+.images2 p{
+font-family: "Cooper Black";
+font-size: 24px;
+color:black;
+text-align: center;
+}
+
+.images .images2{
+  width:100%;
+  height:400px;
+}
+
+
+
+footer{
+    width:100%;
+    text-align: center;
+    height:390px;
+    background-color:  #330000;
+    color: #ffffcc;
+}
+
+.column h2{
+
+  margin: 40px 0;
+  font-size:24px;
+}
+
+.column p{
+  margin: 0px 0px;
+  font-size: 16px;
+
+}
+.column {
+    float: left;
+    width: 33.33%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.credit{
+     float:left;
+     width:50%;
+     font-size: 12px;
+     margin-top: 120px;
+     margin-left:0px;
+}
+.social{
+  float:right;
+  width: 50%;
+  margin-top: 90px;
+
+}
+
+.fa{
+  padding:5px;
+  font-size: 20px;
+  width:40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+
+}
+
+/*media query for homepage ends here*/
+
+/*media QUERY FOR about page starts here*/
+
+.about-img{
+   background-image: url(../images/organic.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  margin-top:0px;
+
+}
+
+.container2{
+   position: relative;
+    text-align: left;
+    color:#521618;
+}
+
+.centered {
+   position: absolute;
+    top: 57%;
+    left:40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+ 
+}
+
+
+footer{
+  margin-top: 100px;
+}
+/*about page media query ends here*/
+
+/*services page ,media query starts here*/
+
+.service-img1{
+  background-image: url(../images/services.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  margin-top:0px;
+}
+
+.service-img2{
+  margin-top:10px;
+  background-image: url(../images/serv2.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+}
+
+
+/*media query for product page start here*/
+
+
+.product-img1{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/cup.jpg);
+ background-repeat: no-repeat;
+
+}
+
+.product-img2{
+ width: 100%;
+ height:300px;
+margin-top:0px;
+ background-image: url(../images/bean.jpg);
+ background-repeat: no-repeat;
+
+ }
+
+.product-img3{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/giftcards.jpg);
+ background-repeat: no-repeat;
+
+
+}
+
+.heading2{
+    font-size: 0.8em;
+    padding: 15px 0;
+    margin-top:0px;
+   
+    
+  }
+
+
+
+}
+
+ @media only screen and (min-width: 72.5em){
+  .wrapper{
+    width: 72.5em;
+  }
+  h1{
+  color:#521618;
+  text-align: center;
+  font-size: 3.3em;
+ 
+}
+h3{
+  color:#0f532f;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.paar1{
+  width:100%;
+}
+
+.nav {
+   
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    background-color: #330000;
+    color:#d9dcb3;
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 0;
+    width: 100%;
+    font-family: "cooper black";
+
+}
+.menu {
+    margin: 0 30px 0 0;
+}
+.menu a {
+    clear: left;
+    text-decoration: none;
+    color: #d9dcb3;
+    margin: 0 10px;
+    line-height: 70px;
+    padding: 26px;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    display: none;
+    width: 60px;
+    height: 40px;
+    float: left;
+}
+
+  .parallax{
+  background-image: url(../images/crop.png);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+ 
+}
+
+.heading1 h1{
+    font-size:2.3em;
+    color: #ffffcc;
+    background-color: #330000;
+    padding: 15px 0;
+    margin-top:0;
+    font-family: "cooper black"
+    
+  }
+
+.para1{
+  font-size: 22px;
+  color:#521618;
+  width:100%;
+  
+
+}
+
+.images p{
+font-family: "Cooper Black";
+font-size: 20px;
+color:black;
+text-align: center;
+}
+
+.images2 p{
+font-family: "Cooper Black";
+font-size: 24px;
+color:black;
+text-align: center;
+}
+
+.images .images2{
+  width:100%;
+  height:400px;
+}
+
+
+
+footer{
+    width:100%;
+    text-align: center;
+    height:390px;
+    background-color:  #330000;
+    color: #ffffcc;
+}
+
+.column h2{
+
+  margin: 40px 0;
+  font-size:24px;
+}
+
+.column p{
+  margin: 0px 0px;
+  font-size: 16px;
+
+}
+.column {
+    float: left;
+    width: 33.33%; 
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.credit{
+     float:left;
+     width:50%;
+     font-size: 12px;
+     margin-top: 120px;
+     margin-left:0px;
+}
+.social{
+  float:right;
+  width: 50%;
+  margin-top: 90px;
+
+}
+
+.fa{
+  padding:5px;
+  font-size: 20px;
+  width:40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+
+}
+
+/*media query for homepage ends here*/
+
+/*media QUERY FOR about page starts here*/
+
+.about-img{
+   background-image: url(../images/organic.jpg);
+  height: 350px;
+  margin-top: 0px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+
+}
+
+.container2{
+   position: relative;
+    text-align: left;
+    color:#521618;
+}
+
+.centered {
+    position: absolute;
+    top: 63%;
+    left:40%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+ 
+}
+
+
+footer{
+  margin-top: 100px;
+}
+/*about page media query ends here*/
+
+/*services page ,media query starts here*/
+
+.service-img1{
+  background-image: url(../images/services.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  margin-top:0px;
+}
+
+.service-img2{
+  margin-top:10px;
+  background-image: url(../images/serv2.jpg);
+  height: 350px;
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+}
+
+
+/*media query for product page start here*/
+
+
+.product-img1{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/cup.jpg);
+ background-repeat: no-repeat;
+
+}
+
+.product-img2{
+ width: 100%;
+ height:300px;
+margin-top:0px;
+ background-image: url(../images/bean.jpg);
+ background-repeat: no-repeat;
+
+ }
+
+.product-img3{
+ width: 100%;
+ height:300px;
+ background-image: url(../images/giftcards.jpg);
+ background-repeat: no-repeat;
+
+
+}
+
+.heading2{
+    font-size: 1em;
+    padding: 15px 0;
+    margin-top:0px;
+   
+    
+  }
+
+}
